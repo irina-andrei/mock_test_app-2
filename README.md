@@ -12,7 +12,7 @@
 
 <br>
 
-![AltText](preview.png)
+![AltText](preview.PNG)
 
 ### Turning program into .exe, which will run as a separate terminal (no need for any dependencies to run the .exe file):
 
