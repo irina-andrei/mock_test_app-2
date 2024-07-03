@@ -5,8 +5,10 @@
 import random as rd
 from time import sleep
 
+'''
 import sys, os
 os.chdir(sys._MEIPASS)
+'''
 # Uncomment this only when using pyinstaller to create .exe file
 
 
@@ -225,24 +227,6 @@ def read_questions_data():
     # will print the specific error on the screen for the user.
 
 
-
-# Some formatting shortcuts:
-RED = ''
-LIGHTRED = ''
-GREEN = ''
-LIGHTGREEN = ''
-YELLOW = ''
-LIGHTYELLOW = ''
-BLUE = ''
-LIGHTBLUE = ''
-PURPLE = ''
-PINK = ''
-CYAN = ''
-LIGHTCYAN = ''
-ENDC = ''  # Removes all formatting applied.
-EM = f"{RED}‼{ENDC}"  # 'Exclamation Mark' shorthand
-
-'''
 # Some formatting shortcuts:
 RED = '\033[31m'
 LIGHTRED = '\033[91m'
@@ -258,7 +242,7 @@ CYAN = '\033[36m'
 LIGHTCYAN = '\033[96m'
 ENDC = '\033[0m'  # Removes all formatting applied.
 EM = f"{RED}‼{ENDC}"  # 'Exclamation Mark' shorthand
-'''
+
 title = f'''
     {PINK}╔{'═'*34}╗
     ║{PURPLE}**{CYAN} ITIL 4: Foundation Mock Test {PURPLE}**{PINK}║
