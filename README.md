@@ -14,6 +14,15 @@
 
 ![AltText](preview.PNG)
 
+### Important note: 
+There are 2 versions for the .exe file, one with colours, one without. Some terminal emulators don't support ANSI escape codes (which is what I used for different colour display).
+
+<br>
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+
+<br>
+
 ### Turning program into .exe, which will run as a separate terminal (no need for any dependencies to run the .exe file):
 
 1. Installing pyinstaller:
