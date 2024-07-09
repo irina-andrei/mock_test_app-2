@@ -15,7 +15,12 @@
 ![AltText](preview.PNG)
 
 ### Important note: 
-There are 2 versions for the .exe file, one with colours, one without. Some terminal emulators don't support ANSI escape codes (which is what I used for different colour display).
+There are 2 versions for the .exe file, one with colours, one without. Some terminal emulators don't support ANSI escape codes (which is what I used for different colour display). To add this, you need to run this command in cmd:
+
+```shell
+reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
+```
+This essentially 'turns on' the terminal ability to read ANSI escape characters.
 
 <br>
 
